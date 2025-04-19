@@ -1,62 +1,81 @@
+Siap! Ini versi yang sudah diperbaiki dan dirapikan secara tata bahasa, struktur, dan konsistensi markdown-nya — tetap menjaga nuansa profesional dan menarik untuk GitHub:
+
+---
+
 # 🚀 ElectroLaunch
 
-A lightning-fast application launcher built with **Electron**, designed to streamline your workflow by providing instant access to applications, files, and websites through an elegant and minimalist interface.
+A lightning-fast application launcher built with **Electron**, designed to streamline your workflow by providing instant access to applications, files, and websites through an elegant, minimalist interface.
 
 ![ElectroLaunch Banner](image/image.png)
 
-## ✨ Key Features
+---
 
-- ⚡ **Instant Search & Launch** - Find and start any application in milliseconds with intelligent fuzzy search
-- 🔗 **Smart Shortcuts** - Create custom shortcuts to applications, files, folders, and URLs with ease
-- 🗑️ **Simple Management** - Add, edit, or remove shortcuts through an intuitive interface
-- 📊 **Usage Analytics** - See which applications you use most frequently (privacy-focused, all data stored locally)
-- 🎨 **Customizable Themes** - Choose between light, dark, and system modes for perfect visual comfort
-- ⌨️ **Keyboard Navigation** - Control everything without touching your mouse for maximum productivity
-- 🔄 **Automatic Updates** - Always enjoy the latest features and improvements
+## ✨ Features
+
+- ⚡ **Instant Search & Launch**  
+  Find and start any application in milliseconds with intelligent fuzzy search.
+- 🔗 **Smart Shortcuts**  
+  Easily create custom shortcuts for apps, files, folders, and websites.
+- 🗑️ **Simple Management**  
+  Add, edit, or remove shortcuts through a clean, intuitive UI.
+- 📊 **Usage Analytics** *(privacy-friendly)*  
+  See your most-used apps — all data stored locally.
+- 🎨 **Customizable Themes**  
+  Switch between light, dark, and system themes for visual comfort.
+- ⌨️ **Keyboard Navigation**  
+  Navigate entirely via keyboard for maximum productivity.
+- 🔄 **Automatic Updates**  
+  Stay up to date with the latest features and improvements automatically.
+
+---
 
 ## 📥 Installation
 
-### Pre-built Binaries
+### Pre-Built Binaries
 
 Download the latest version for your platform:
 
-- [Windows (64-bit)](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-Setup-Windows-x64.exe)
-- [macOS](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-darwin-x64.dmg)
-- [Linux (.deb)](https://github.com/fathuur7/electro-launch/releases/latest/download/electro-launch_amd64.deb)
-- [Linux (.AppImage)](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-linux-x86_64.AppImage)
+- 🪟 [**Windows (64-bit)**](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-Setup-Windows-x64.exe)
+- 🍎 [**macOS**](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-darwin-x64.dmg)
+- 🐧 [**Linux (.deb)**](https://github.com/fathuur7/electro-launch/releases/latest/download/electro-launch_amd64.deb)
+- 🐧 [**Linux (.AppImage)**](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-linux-x86_64.AppImage)
 
-### Development Setup
+---
+
+## 🧑‍💻 Development Setup
 
 ```bash
 # Clone the repository
 git clone https://github.com/fathuur7/electro-launch.git
 
-# Navigate to project directory
+# Navigate into the project directory
 cd electro-launch
 
 # Install dependencies
 npm install
 
-# Start the application in development mode
+# Start the app in development mode
 npm start
 ```
 
-### 📂 Folder Structure
+---
+
+## 📁 Folder Structure
 
 ```
 .
 ├── main.js         # Main Electron process
-├── preload.js      # (Opsional) Preload script
-├── index.html      # HTML UI
-├── renderer.js    # Logic untuk UI
-├── src
-│   ├── styles/     # CSS styles
+├── preload.js      # Optional preload script
+├── index.html      # Main HTML UI
+├── renderer.js     # UI logic
+├── src/
+│   └── styles/     # CSS styles
 └── package.json
 ```
 
 ---
 
-## 🛠️ Building from Source
+## 🏗️ Build from Source
 
 ```bash
 # For Windows
@@ -68,52 +87,66 @@ npm run build:mac
 # For Linux
 npm run build:linux
 
-# For all platforms
+# Build for all platforms
 npm run build
 ```
 
-## 🧩 Technology Stack
+---
 
-- **[Electron](https://www.electronjs.org/)** - Cross-platform desktop app framework
-- **[Electron Forge](https://www.electronforge.io/)** - Complete toolchain for Electron app development
-- **Core Node.js Modules:**
-  - `fs` - File system operations
-  - `path` - Path manipulations
-  - `child_process` - Process execution
-  - `os` - Operating system utilities
+## 🧩 Tech Stack
+
+- **[Electron](https://www.electronjs.org/)** — Cross-platform desktop app framework
+- **[Electron Forge](https://www.electronforge.io/)** — All-in-one toolchain for Electron development
+- **Node.js Core Modules**
+  - `fs` — File system
+  - `path` — Path utilities
+  - `child_process` — Spawn processes
+  - `os` — OS-level utilities
+
+---
 
 ## 🗺️ Roadmap
 
-- [ ] Global hotkey support (Customize your activation shortcut)
+- [ ] Global hotkey support (customizable activation shortcut)
 - [ ] Plugin system for extensibility
-- [ ] Cloud sync to backup shortcuts across devices
-- [ ] Context-aware suggestions based on time and usage patterns
-- [ ] Command palette for advanced users
-- [ ] Improved accessibility features
+- [ ] Cloud sync to back up shortcuts across devices
+- [ ] Context-aware suggestions (based on time and usage)
+- [ ] Command palette for power users
+- [ ] Accessibility improvements
 - [ ] Multi-language support
+
+---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions! Follow these steps to contribute:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork the repository  
+2. Create a new branch: `git checkout -b feature/awesome-feature`  
+3. Commit your changes: `git commit -m 'Add awesome feature'`  
+4. Push to your branch: `git push origin feature/awesome-feature`  
+5. Open a Pull Request  
 
-## 📜 License
+---
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
 
 ## 👤 Author
 
-- **Fathuur Rahman** - [GitHub](https://github.com/fathuur7)
-## 📬 Contact
-For any inquiries or feedback, please reach out to me at [kopisusu8ip@gmail.com](mailto:kopisusu8ip@gmail.com).
-## 🌐 Socials
+**Fathuur Rahman**  
+[GitHub Profile »](https://github.com/fathuur7)
 
-<div align="center">
-  <p>Made with ❤️ and ☕ in Indonesia</p>
-  <p>⭐ Star this repository if you found it useful! ⭐</p>
-</div>
+---
+
+## 📬 Contact
+
+Got feedback or questions? Reach out via email:  
+📧 [kopisusu8ip@gmail.com](mailto:kopisusu8ip@gmail.com)
+
+---
+
+
