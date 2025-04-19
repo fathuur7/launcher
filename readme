@@ -3,8 +3,7 @@
 A lightning-fast application launcher built with **Electron**, designed to streamline your workflow by providing instant access to applications, files, and websites through an elegant, minimalist interface.
 
 ---
-
-## ✨ Features
+✨ Features
 
 - ⚡ **Instant Search & Launch**  
   Find and start any application in milliseconds with intelligent fuzzy search.
@@ -23,9 +22,9 @@ A lightning-fast application launcher built with **Electron**, designed to strea
 
 ---
 
-## 📥 Installation
+📥 Installation
 
-### Pre-Built Binaries
+Pre-Built Binaries
 
 Download the latest version for your platform:
 
@@ -36,7 +35,7 @@ Download the latest version for your platform:
 
 ---
 
-## 🧑‍💻 Development Setup
+🧑‍💻 Development Setup
 
 ```bash
 # Clone the repository
@@ -54,7 +53,7 @@ npm start
 
 ---
 
-## 📁 Folder Structure
+📁 Folder Structure
 
 ```
 .
@@ -69,7 +68,7 @@ npm start
 
 ---
 
-## 🏗️ Build from Source
+🏗️ Build from Source
 
 ```bash
 # For Windows
@@ -87,7 +86,7 @@ npm run build
 
 ---
 
-## 🧩 Tech Stack
+🧩 Tech Stack
 
 - **[Electron](https://www.electronjs.org/)** — Cross-platform desktop app framework
 - **[Electron Forge](https://www.electronforge.io/)** — All-in-one toolchain for Electron development
@@ -99,7 +98,7 @@ npm run build
 
 ---
 
-## 🗺️ Roadmap
+🗺️ Roadmap
 
 - [ ] Global hotkey support (customizable activation shortcut)
 - [ ] Plugin system for extensibility
@@ -111,7 +110,7 @@ npm run build
 
 ---
 
-## 🤝 Contributing
+🤝 Contributing
 
 We welcome contributions! Follow these steps to contribute:
 
@@ -123,20 +122,20 @@ We welcome contributions! Follow these steps to contribute:
 
 ---
 
-## 📄 License
+📄 License
 
 Licensed under the [MIT License](LICENSE).
 
 ---
 
-## 👤 Author
+👤 Author
 
 **Fathuur Rahman**  
 [GitHub Profile »](https://github.com/fathuur7)
 
 ---
 
-## 📬 Contact
+📬 Contact
 
 Got feedback or questions? Reach out via email:  
 📧 [kopisusu8ip@gmail.com](mailto:kopisusu8ip@gmail.com)
