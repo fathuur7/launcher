@@ -1,0 +1,32 @@
+{
+  "name": "launcher-app",
+  "version": "1.0.0",
+  "description": "A launcher app similar to Raycast",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "fathur",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^35.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "directories": {
+      "output": "dist"
+    },
+    "appId": "com.yourdomain.launcherapp",
+    "productName": "Launcher App",
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}

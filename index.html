@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Launcher App</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search apps, shortcuts, or type a command..." autofocus>
+      <div class="search-hint">Press Ctrl+Enter to search Google</div>
+    </div>
+    
+    <div class="results-container" id="results-list">
+      <!-- Shortcuts will be populated here -->
+    </div>
+    
+    <div class="actions-container">
+      <button class="action-button" id="add-button">Add Shortcut</button>
+    </div>
+    
+    <div class="add-form" id="add-form">
+      <div class="form-group">
+        <label for="shortcut-name">Name</label>
+        <input type="text" id="shortcut-name" placeholder="Name of shortcut">
+      </div>
+      
+      <div class="form-group">
+        <label for="shortcut-type">Type</label>
+        <select id="shortcut-type">
+          <option value="app">Application</option>
+          <option value="url">URL</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="shortcut-path">Path/URL</label>
+        <input type="text" id="shortcut-path" placeholder="Path to app or URL">
+      </div>
+      
+      <div class="form-actions">
+        <button class="action-button" id="cancel-button">Cancel</button>
+        <button class="action-button" id="save-button">Save</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="renderer.js" defer></script>
+</body>
+</html>

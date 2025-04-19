@@ -1,0 +1,119 @@
+# 🚀 ElectroLaunch
+
+A lightning-fast application launcher built with **Electron**, designed to streamline your workflow by providing instant access to applications, files, and websites through an elegant and minimalist interface.
+
+![ElectroLaunch Banner](image/image.png)
+
+## ✨ Key Features
+
+- ⚡ **Instant Search & Launch** - Find and start any application in milliseconds with intelligent fuzzy search
+- 🔗 **Smart Shortcuts** - Create custom shortcuts to applications, files, folders, and URLs with ease
+- 🗑️ **Simple Management** - Add, edit, or remove shortcuts through an intuitive interface
+- 📊 **Usage Analytics** - See which applications you use most frequently (privacy-focused, all data stored locally)
+- 🎨 **Customizable Themes** - Choose between light, dark, and system modes for perfect visual comfort
+- ⌨️ **Keyboard Navigation** - Control everything without touching your mouse for maximum productivity
+- 🔄 **Automatic Updates** - Always enjoy the latest features and improvements
+
+## 📥 Installation
+
+### Pre-built Binaries
+
+Download the latest version for your platform:
+
+- [Windows (64-bit)](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-Setup-Windows-x64.exe)
+- [macOS](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-darwin-x64.dmg)
+- [Linux (.deb)](https://github.com/fathuur7/electro-launch/releases/latest/download/electro-launch_amd64.deb)
+- [Linux (.AppImage)](https://github.com/fathuur7/electro-launch/releases/latest/download/ElectroLaunch-linux-x86_64.AppImage)
+
+### Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/fathuur7/electro-launch.git
+
+# Navigate to project directory
+cd electro-launch
+
+# Install dependencies
+npm install
+
+# Start the application in development mode
+npm start
+```
+
+### 📂 Folder Structure
+
+```
+.
+├── main.js         # Main Electron process
+├── preload.js      # (Opsional) Preload script
+├── index.html      # HTML UI
+├── renderer.js    # Logic untuk UI
+├── src
+│   ├── styles/     # CSS styles
+└── package.json
+```
+
+---
+
+## 🛠️ Building from Source
+
+```bash
+# For Windows
+npm run build:win
+
+# For macOS
+npm run build:mac
+
+# For Linux
+npm run build:linux
+
+# For all platforms
+npm run build
+```
+
+## 🧩 Technology Stack
+
+- **[Electron](https://www.electronjs.org/)** - Cross-platform desktop app framework
+- **[Electron Forge](https://www.electronforge.io/)** - Complete toolchain for Electron app development
+- **Core Node.js Modules:**
+  - `fs` - File system operations
+  - `path` - Path manipulations
+  - `child_process` - Process execution
+  - `os` - Operating system utilities
+
+## 🗺️ Roadmap
+
+- [ ] Global hotkey support (Customize your activation shortcut)
+- [ ] Plugin system for extensibility
+- [ ] Cloud sync to backup shortcuts across devices
+- [ ] Context-aware suggestions based on time and usage patterns
+- [ ] Command palette for advanced users
+- [ ] Improved accessibility features
+- [ ] Multi-language support
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+- **Fathuur Rahman** - [GitHub](https://github.com/fathuur7)
+## 📬 Contact
+For any inquiries or feedback, please reach out to me at [kopisusu8ip@gmail.com](mailto:kopisusu8ip@gmail.com).
+## 🌐 Socials
+
+<div align="center">
+  <p>Made with ❤️ and ☕ in Indonesia</p>
+  <p>⭐ Star this repository if you found it useful! ⭐</p>
+</div>
